@@ -13,7 +13,7 @@ El proyecto fue hecho para probar rutas de react con react-router-dom.
 
 https://merry-cascaron-69cc7f.netlify.app/
 
-![img](https://i.ibb.co/fqpkZ0L/agenciavuelo.png)
+![img](https://i.ibb.co/bQBsYdD/agenciavuelo.png)
 
 ## Available Scripts
 
