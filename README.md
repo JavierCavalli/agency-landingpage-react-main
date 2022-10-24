@@ -11,7 +11,7 @@ El proyecto fue hecho para probar rutas de react con react-router-dom.
 
 ## Demo 
 
-https://merry-cascaron-69cc7f.netlify.app/
+https://agenciavuelo-react-main.vercel.app/
 
 ![img](https://i.ibb.co/bQBsYdD/agenciavuelo.png)
 
