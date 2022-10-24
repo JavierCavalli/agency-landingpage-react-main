@@ -7,8 +7,19 @@ const Navbar = () => {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
 
+  const [color, setColor] = useState(false);
+  const changeColor = () => {
+    if (window.scrollY >= 100) {
+      setColor(true);
+    } else {
+      setColor(false);
+    }
+  };
+
+  window.addEventListener("scroll", changeColor);
+
   return (
-    <div className="header">
+    <div className={color ? "header header-bg" : "header"}>
       <Link to="/">
         <h1>ORION</h1>
       </Link>
@@ -17,13 +28,13 @@ const Navbar = () => {
           <Link to="/">Home</Link>
         </li>
         <li>
-          <Link to="/">Precios</Link>
+          <Link to="/info">Info</Link>
         </li>
         <li>
-          <Link to="/">Guias</Link>
+          <Link to="/apps">Apps</Link>
         </li>
         <li>
-          <Link to="/">Contacto</Link>
+          <Link to="/contact">Contacto</Link>
         </li>
       </ul>
       <div className="hamburger" onClick={handleClick}>
