@@ -15,10 +15,10 @@ const Video = () => {
         <p>Agencia de vuelo espacial Argentina</p>
         <div>
           <Link to="/training" className="btn">
-            Training
+            Proyectos
           </Link>
           <Link to="/contact" className="btn btn-light">
-            Launch
+            Objetivos
           </Link>
         </div>
       </div>
