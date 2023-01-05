@@ -39,19 +39,6 @@
   padding: 1rem 0;
 }
 
-.footer .location {
-  display: flex;
-  align-items: center;
-}
-
-.footer .location p {
-  padding-bottom: 0.5rem;
-}
-
-.footer .location h4 {
-  padding-top: 0;
-}
-
 @media screen and (max-width: 640px) {
   .footer-container {
     grid-template-columns: 1fr;
