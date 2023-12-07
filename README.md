@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-El proyecto fue hecho para probar rutas de react con react-router-dom.
+I created this project to learn how routing works in react and to go back to base CSS without frameworks.
 
 ## Built With
 
